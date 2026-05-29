@@ -69,4 +69,4 @@ Copy `.env.example` to `.env` and fill values. Do not commit `.env`.
 - [Render Blueprints](https://render.com/docs/infrastructure-as-code)
 - [Render Postgres](https://render.com/docs/databases)
 
-Older step-by-step notes: [RENDER_DEPLOYMENT.md](./RENDER_DEPLOYMENT.md), [RENDER_SETUP.md](./RENDER_SETUP.md).
+Older step-by-step notes: [RENDER_DEPLOYMENT.md](./RENDER_DEPLOYMENT.md).

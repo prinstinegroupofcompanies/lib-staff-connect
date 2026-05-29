@@ -221,4 +221,4 @@ ADMIN_PASSWORD=admin123
 
 **Your app will be live at**: `https://your-app-name.onrender.com`
 
-**Need help?** Check the logs in Render dashboard or refer to DEPLOYMENT.md
+**Need help?** Check the logs in Render dashboard or refer to [RENDER.md](./RENDER.md).

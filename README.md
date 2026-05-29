@@ -170,9 +170,8 @@ Admin users can be created manually in the database by setting `userType` to `AD
 4. Build and deploy the Next.js application
 
 Recommended hosting platforms:
-- **Render** – See [RENDER.md](./RENDER.md) and [render.yaml](./render.yaml). On the **free** web tier, migrations run during **build** (no pre-deploy hook). Create an admin once with `npm run create-admin:prod` in the web service Shell (set `NEXTAUTH_URL` to your `https://…onrender.com` URL).
-- **Fly.io** – See [FLY_SETUP.md](./FLY_SETUP.md). Set `DATABASE_URL`, `NEXTAUTH_URL`, and `NEXTAUTH_SECRET` as Fly secrets **before** deploying, or the release command will fail.
-- Vercel (recommended for Next.js)
+- **Render** – See [RENDER.md](./RENDER.md), [RENDER_DEPLOYMENT.md](./RENDER_DEPLOYMENT.md), and [render.yaml](./render.yaml). On the **free** web tier, migrations run during **build** (no pre-deploy hook). Create an admin once with `npm run create-admin:prod` in the web service Shell (set `NEXTAUTH_URL` to your `https://…onrender.com` URL).
+- **Vercel** – See [VERCEL_FRONTEND_DEPLOYMENT.md](./VERCEL_FRONTEND_DEPLOYMENT.md).
 - Railway
 - AWS
 - DigitalOcean
